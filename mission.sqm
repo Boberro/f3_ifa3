@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={10761.734,45.026733,13041.195};
-		dir[]={0.21191232,-0.45052236,-0.86739254};
-		up[]={0.10694437,0.89272237,-0.43773681};
-		aside[]={-0.97151554,-6.2157051e-007,-0.23735292};
+		pos[]={10801.321,45.026733,13019.491};
+		dir[]={-0.8884356,-0.45866463,0.023628209};
+		up[]={-0.45858943,0.88856572,0.012195311};
+		aside[]={0.026585961,-6.9927773e-007,0.99973446};
 	};
 };
 binarizationWanted=0;
@@ -6590,7 +6590,7 @@ class Mission
 			};
 			id=879;
 			type="Lib_sdkfz251";
-			atlOffset=-0.0083227158;
+			atlOffset=-0.0083208084;
 		};
 		class Item77
 		{
@@ -7430,7 +7430,7 @@ class Mission
 			};
 			id=904;
 			type="Lib_sdkfz251";
-			atlOffset=0.0049991608;
+			atlOffset=0.0050001144;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8286,7 +8286,7 @@ class Mission
 			};
 			id=926;
 			type="Lib_sdkfz251";
-			atlOffset=0.012593269;
+			atlOffset=0.012594223;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12317,7 +12317,7 @@ class Mission
 					};
 					id=1412;
 					type="LIB_wp_strzelec";
-					atlOffset=0.021001816;
+					atlOffset=0.021007538;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13616,7 +13616,7 @@ class Mission
 					};
 					id=1383;
 					type="LIB_wp_starszy_saper";
-					atlOffset=1.9073486e-006;
+					atlOffset=5.3405762e-005;
 				};
 				class Item1
 				{
@@ -13644,7 +13644,7 @@ class Mission
 			{
 			};
 			id=1382;
-			atlOffset=1.9073486e-006;
+			atlOffset=5.3405762e-005;
 		};
 	};
 	class Connections
