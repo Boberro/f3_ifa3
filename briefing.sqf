@@ -57,7 +57,7 @@ if (serverCommandAvailable "#kick") then {
 // The following block of code executes only if the player is in a Nazi Germany slot; it
 // automatically includes a file which contains the appropriate briefing data.
 
-if (_unitfaction in ["LIB_WEHRMACHT", "LIB_PANZERWAFFE", "LIB_LUFTWAFFE", "SG_STURM", "SG_STURMPANZER"]) exitwith {
+if (_unitfaction in ["lib_wehrmacht", "lib_panzerwaffe", "lib_luftwaffe", "sg_sturm", "sg_sturmpanzer"]) exitwith {
 
 #include "f\briefing\f_briefing_axis.sqf"
 
@@ -74,7 +74,7 @@ if (_unitfaction in ["LIB_WEHRMACHT", "LIB_PANZERWAFFE", "LIB_LUFTWAFFE", "SG_ST
 // The following block of code executes only if the player is in a USSR slot; it
 // automatically includes a file which contains the appropriate briefing data.
 
-if (_unitfaction in ["LIB_RKKA", "LIB_USSR_AIRFORCE", "LIB_USSR_TANK_TROOPS"]) exitwith {
+if (_unitfaction in ["lib_rkka", "lib_ussr_airforce", "lib_ussr_tank_troops"]) exitwith {
 
 #include "f\briefing\f_briefing_ussr.sqf"
 
@@ -91,7 +91,7 @@ if (_unitfaction in ["LIB_RKKA", "LIB_USSR_AIRFORCE", "LIB_USSR_TANK_TROOPS"]) e
 // The following block of code executes only if the player is in a WW2 US Army slot; it
 // automatically includes a file which contains the appropriate briefing data.
 
-if (_unitfaction in ["LIB_US_ARMY", "LIB_US_TANK_TROOPS", "LIB_US_AIRFORCE"]) exitwith {
+if (_unitfaction in ["lib_us_army", "lib_us_tank_troops", "lib_us_airforce"]) exitwith {
 
 #include "f\briefing\f_briefing_us_army.sqf"
 
@@ -108,7 +108,7 @@ if (_unitfaction in ["LIB_US_ARMY", "LIB_US_TANK_TROOPS", "LIB_US_AIRFORCE"]) ex
 // The following block of code executes only if the player is in a Home Army slot; it
 // automatically includes a file which contains the appropriate briefing data.
 
-if (_unitfaction == "LIB_GUER") exitwith {
+if (_unitfaction == "lib_guer") exitwith {
 
 #include "f\briefing\f_briefing_home_army.sqf"
 

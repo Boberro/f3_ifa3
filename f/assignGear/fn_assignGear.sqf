@@ -69,6 +69,46 @@ if (f_var_debugMode == 1) then
 
 // ====================================================================================
 
+// GEAR: Axis
+// The following block of code executes only if the unit is in a Nazi Germany slot; it
+// automatically includes a file which contains the appropriate equipment data.
+
+if (_faction in  ["lib_wehrmacht", "lib_panzerwaffe", "lib_luftwaffe", "sg_sturm", "sg_sturmpanzer"]) then {
+#include "f_assignGear_axis.sqf"
+};
+
+// ====================================================================================
+
+// GEAR: USSR
+// The following block of code executes only if the unit is in a USSR slot; it
+// automatically includes a file which contains the appropriate equipment data.
+
+if (_faction in  "lib_rkka", "lib_ussr_airforce", "lib_ussr_tank_troops") then {
+#include "f_assignGear_ussr.sqf"
+};
+
+// ====================================================================================
+
+// GEAR: US Army
+// The following block of code executes only if the unit is in a US Army slot; it
+// automatically includes a file which contains the appropriate equipment data.
+
+if (_faction in  ["lib_us_army", "lib_us_tank_troops", "lib_us_airforce"]) then {
+#include "f_assignGear_us_army.sqf"
+};
+
+// ====================================================================================
+
+// GEAR: Home Army
+// The following block of code executes only if the unit is in a Home Army slot; it
+// automatically includes a file which contains the appropriate equipment data.
+
+if (_faction == "lib_guer") then {
+#include "f_assignGear_home_army.sqf"
+};
+
+// ====================================================================================
+
 // GEAR: BLUFOR > NATO
 // The following block of code executes only if the unit is in a NATO slot; it
 // automatically includes a file which contains the appropriate equipment data.
