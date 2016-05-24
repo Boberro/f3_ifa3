@@ -2887,7 +2887,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="GrpGER_A2 = group this; [""r1"",this] call f_fnc_assignGear;";
+						init="GrpGER_A2 = group this; [""fc_r"",this] call f_fnc_assignGear;";
 						name="UnitGER_A2_R1";
 						description="Wehrmacht Alpha 2 Rifleman (semi-auto)";
 						isPlayable=1;
@@ -7092,7 +7092,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="GrpGER_B2 = group this; [""r1"",this] call f_fnc_assignGear;";
+						init="GrpGER_B2 = group this; [""fc_r"",this] call f_fnc_assignGear;";
 						name="UnitGER_B2_R1";
 						description="Wehrmacht Bravo 2 Rifleman (semi-auto)";
 						isPlayable=1;
@@ -7949,7 +7949,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="GrpGER_C2 = group this; [""r1"",this] call f_fnc_assignGear;";
+						init="GrpGER_C2 = group this; [""fc_r"",this] call f_fnc_assignGear;";
 						name="UnitGER_C2_R1";
 						description="Wehrmacht Charlie 2 Rifleman (semi-auto)";
 						isPlayable=1;
