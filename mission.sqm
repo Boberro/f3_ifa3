@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1447;
+		nextID=1448;
 	};
 	class Camera
 	{
-		pos[]={10681.29,55.728142,11952.864};
-		dir[]={0.61214548,-0.74881881,-0.25455871};
-		up[]={0.69143629,0.66275585,-0.28753009};
-		aside[]={-0.38400248,-1.475215e-006,-0.92343062};
+		pos[]={10381.779,18.988583,11876.91};
+		dir[]={0.48356381,-0.5549323,-0.67710429};
+		up[]={0.32255438,0.83185035,-0.45165074};
+		aside[]={-0.81384951,-1.0885997e-006,-0.58122629};
 	};
 };
 binarizationWanted=0;
@@ -2407,7 +2407,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpGER_ASL = group this; [""dc"",this] call f_fnc_assignGear;";
+						init="GrpGER_ASL = group this; [""sl"",this] call f_fnc_assignGear;";
 						name="UnitGER_ASL";
 						description="Wehrmacht Alpha Squad Leader";
 						isPlayable=1;
@@ -2556,7 +2556,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpGER_A1 = group this; [""FTL1"",this] call f_fnc_assignGear;";
+						init="GrpGER_A1 = group this; [""ftl_rifle"",this] call f_fnc_assignGear;";
 						name="UnitGER_A1_FTL";
 						description="Wehrmacht Alpha 1 Fire Team Leader (rifle)";
 						isPlayable=1;
@@ -2796,7 +2796,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpGER_A2 = group this; [""FTL2"",this] call f_fnc_assignGear;";
+						init="GrpGER_A2 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitGER_A2_FTL";
 						description="Wehrmacht Alpha 2 Fire Team Leader (auto)";
 						isPlayable=1;
@@ -3452,7 +3452,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						lock="UNLOCKED";
-						init="GrpUSSR_ASL = group this; [""dc"",this] call f_fnc_assignGear;";
+						init="GrpUSSR_ASL = group this; [""sl"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_ASL_SL";
 						description="Red Army Alpha Squad Leader";
 						isPlayable=1;
@@ -3556,7 +3556,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						lock="UNLOCKED";
-						init="GrpUSSR_A1 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpUSSR_A1 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_A1_FTL";
 						description="Red Army Alpha 1 Fire Team Leader";
 						isPlayable=1;
@@ -3683,7 +3683,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						lock="UNLOCKED";
-						init="GrpUSSR_A2 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpUSSR_A2 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_A2_FTL";
 						description="Red Army Alpha 2 Fire Team Leader";
 						isPlayable=1;
@@ -3872,7 +3872,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						lock="UNLOCKED";
-						init="GrpUSSR_BSL = group this; [""dc"",this] call f_fnc_assignGear;";
+						init="GrpUSSR_BSL = group this; [""sl"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_BSL_SL";
 						description="Red Army Bravo Squad Leader";
 						isPlayable=1;
@@ -3975,7 +3975,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						lock="UNLOCKED";
-						init="GrpUSSR_B1 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpUSSR_B1 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_B1_FTL";
 						description="Red Army Bravo 1 Fire Team Leader";
 						isPlayable=1;
@@ -4099,7 +4099,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						lock="UNLOCKED";
-						init="GrpUSSR_B2 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpUSSR_B2 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_B2_FTL";
 						description="Red Army Bravo 2 Fire Team Leader";
 						isPlayable=1;
@@ -4280,7 +4280,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						lock="UNLOCKED";
-						init="GrpUSSR_CSL = group this; [""dc"",this] call f_fnc_assignGear;";
+						init="GrpUSSR_CSL = group this; [""sl"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_CSL_SL";
 						description="Red Army Charlie Squad Leader";
 						isPlayable=1;
@@ -4383,7 +4383,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						lock="UNLOCKED";
-						init="GrpUSSR_C1 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpUSSR_C1 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_C1_FTL";
 						description="Red Army Charlie 1 Fire Team Leader";
 						isPlayable=1;
@@ -4507,7 +4507,7 @@ class Mission
 						skill=0.60000002;
 						rank="CORPORAL";
 						lock="UNLOCKED";
-						init="GrpUSSR_C2 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpUSSR_C2 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitUSSR_C2_FTL";
 						description="Red Army Charlie 2 Fire Team Leader";
 						isPlayable=1;
@@ -5048,7 +5048,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpUSA_ASL = group this; [""dc"",this] call f_fnc_assignGear;";
+						init="GrpUSA_ASL = group this; [""sl"",this] call f_fnc_assignGear;";
 						name="UnitUSA_ASL_SL";
 						description="US Army Alpha Squad Leader";
 						isPlayable=1;
@@ -5150,7 +5150,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpUSA_A1 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpUSA_A1 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitUSA_A1_FTL";
 						description="US Army Alpha 1 Fire Team Leader";
 						isPlayable=1;
@@ -5272,7 +5272,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpUSA_A2 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpUSA_A2 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitUSA_A2_FTL";
 						description="US Army Alpha 2 Fire Team Leader";
 						isPlayable=1;
@@ -5495,7 +5495,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpUSA_BSL = group this; [""dc"",this] call f_fnc_assignGear;";
+						init="GrpUSA_BSL = group this; [""sl"",this] call f_fnc_assignGear;";
 						name="UnitUSA_BSL_SL";
 						description="US Army Bravo Squad Leader";
 						isPlayable=1;
@@ -5554,7 +5554,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpUSA_B1 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpUSA_B1 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitUSA_B1_FTL";
 						description="US Army Bravo 1 Fire Team Leader";
 						isPlayable=1;
@@ -5673,7 +5673,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpUSA_B2 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpUSA_B2 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitUSA_B2_FTL";
 						description="US Army Bravo 2 Fire Team Leader";
 						isPlayable=1;
@@ -5895,7 +5895,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpUSA_CSL = group this; [""dc"",this] call f_fnc_assignGear;";
+						init="GrpUSA_CSL = group this; [""sl"",this] call f_fnc_assignGear;";
 						name="UnitUSA_CSL_SL";
 						description="US Army Charlie Squad Leader";
 						isPlayable=1;
@@ -5951,7 +5951,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpUSA_C1 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpUSA_C1 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitUSA_C1_FTL";
 						description="US Army Charlie 1 Fire Team Leader";
 						isPlayable=1;
@@ -6070,7 +6070,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpUSA_C2 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpUSA_C2 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitUSA_C2_FTL";
 						description="US Army Charlie 2 Fire Team Leader";
 						isPlayable=1;
@@ -6612,7 +6612,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpGER_BSL = group this; [""dc"",this] call f_fnc_assignGear;";
+						init="GrpGER_BSL = group this; [""sl"",this] call f_fnc_assignGear;";
 						name="UnitGER_BSL";
 						description="Wehrmacht Bravo Squad Leader";
 						isPlayable=1;
@@ -6761,7 +6761,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpGER_B1 = group this; [""FTL1"",this] call f_fnc_assignGear;";
+						init="GrpGER_B1 = group this; [""ftl_rifle"",this] call f_fnc_assignGear;";
 						name="UnitGER_B1_FTL";
 						description="Wehrmacht Bravo 1 Fire Team Leader (rifle)";
 						isPlayable=1;
@@ -7001,7 +7001,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpGER_B2 = group this; [""FTL2"",this] call f_fnc_assignGear;";
+						init="GrpGER_B2 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitGER_B2_FTL";
 						description="Wehrmacht Bravo 2 Fire Team Leader (auto)";
 						isPlayable=1;
@@ -7475,7 +7475,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpGER_CSL = group this; [""dc"",this] call f_fnc_assignGear;";
+						init="GrpGER_CSL = group this; [""sl"",this] call f_fnc_assignGear;";
 						name="UnitGER_CSL";
 						description="Wehrmacht Charlie Squad Leader";
 						isPlayable=1;
@@ -7622,7 +7622,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpGER_C1 = group this; [""FTL1"",this] call f_fnc_assignGear;";
+						init="GrpGER_C1 = group this; [""ftl_rifle"",this] call f_fnc_assignGear;";
 						name="UnitGER_C1_FTL";
 						description="Wehrmacht Charlie 1 Fire Team Leader (rifle)";
 						isPlayable=1;
@@ -7859,7 +7859,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpGER_C2 = group this; [""FTL2"",this] call f_fnc_assignGear;";
+						init="GrpGER_C2 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitGER_C2_FTL";
 						description="Wehrmacht Charlie 2 Fire Team Leader (auto)";
 						isPlayable=1;
@@ -11302,7 +11302,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpPL_ASL = group this; [""dc"",this] call f_fnc_assignGear;";
+						init="GrpPL_ASL = group this; [""sl"",this] call f_fnc_assignGear;";
 						name="UnitPL_ASL_SL";
 						description="Home Army Alpha Squad Leader";
 						isPlayable=1;
@@ -11448,7 +11448,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpPL_A1 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpPL_A1 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitPL_A1_FTL";
 						description="Home Army Alpha 1 Fire Team Leader";
 						isPlayable=1;
@@ -11686,7 +11686,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpPL_A2 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpPL_A2 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitPL_A2_FTL";
 						description="Home Army Alpha 2 Fire Team Leader";
 						isPlayable=1;
@@ -11925,7 +11925,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpPL_BSL = group this; [""dc"",this] call f_fnc_assignGear;";
+						init="GrpPL_BSL = group this; [""sl"",this] call f_fnc_assignGear;";
 						name="UnitPL_BSL_SL";
 						description="Home Army Bravo Squad Leader";
 						isPlayable=1;
@@ -12071,7 +12071,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpPL_B1 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpPL_B1 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitPL_B1_FTL";
 						description="Home Army Bravo 1 Fire Team Leader";
 						isPlayable=1;
@@ -12311,7 +12311,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpPL_A2 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpPL_A2 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitPL_B2_FLT";
 						description="Home Army Bravo 2 Fire Team Leader";
 						isPlayable=1;
@@ -12551,7 +12551,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						init="GrpPL_ASL = group this; [""dc"",this] call f_fnc_assignGear;";
+						init="GrpPL_ASL = group this; [""sl"",this] call f_fnc_assignGear;";
 						name="UnitPL_CSL_SL";
 						description="Home Army Charlie Squad Leader";
 						isPlayable=1;
@@ -12698,7 +12698,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpPL_A1 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpPL_A1 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitPL_C1_FLT";
 						description="Home Army Charlie 1 Fire Team Leader";
 						isPlayable=1;
@@ -12937,7 +12937,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="CORPORAL";
-						init="GrpPL_A2 = group this; [""FTL"",this] call f_fnc_assignGear;";
+						init="GrpPL_A2 = group this; [""ftl"",this] call f_fnc_assignGear;";
 						name="UnitPL_C2_FLT";
 						description="Home Army Charlie 2 Fire Team Leader";
 						isPlayable=1;
