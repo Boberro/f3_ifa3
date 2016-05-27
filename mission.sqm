@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1486;
+		nextID=1502;
 	};
 	class Camera
 	{
-		pos[]={10364.546,16.315025,11927.815};
-		dir[]={-0.1709062,-0.39041078,-0.90477496};
-		up[]={-0.072484098,0.92059451,-0.38373613};
-		aside[]={-0.98270154,-1.8416904e-006,0.18562287};
+		pos[]={10505.722,20.961454,11859.035};
+		dir[]={0.35710824,-0.74100029,-0.56888968};
+		up[]={0.39397457,0.67147464,-0.62761796};
+		aside[]={-0.84702337,-3.9134175e-006,-0.53170651};
 	};
 };
 binarizationWanted=0;
@@ -13312,10 +13312,10 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10493.938,14.742076,11880.846};
+						position[]={10493.938,14.742743,11880.846};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						init="GrpGER_MTR1 = group this; [""mtrag"",this] call f_fnc_assignGear; ";
@@ -13323,9 +13323,8 @@ class Mission
 						description="Wehrmacht Mortar Team 1 Spotter (Leader)";
 						isPlayable=1;
 					};
-					id=1475;
-					type="LIB_GER_gun_unterofficer";
-					atlOffset=-0.00066661835;
+					id=1486;
+					type="LIB_GER_ober_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13355,10 +13354,10 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10494.846,14.746029,11880.956};
+						position[]={10494.846,14.746696,11880.956};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="GrpGER_MTR1 = group this; [""mtrg"",this] call f_fnc_assignGear; ";
@@ -13366,9 +13365,8 @@ class Mission
 						description="Wehrmacht Mortar Team 1 Gunner";
 						isPlayable=1;
 					};
-					id=1476;
-					type="LIB_GER_gun_crew";
-					atlOffset=-0.00066661835;
+					id=1487;
+					type="LIB_GER_rifleman";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13398,7 +13396,6 @@ class Mission
 			{
 			};
 			id=1474;
-			atlOffset=-0.00066661835;
 		};
 		class Item163
 		{
@@ -13509,16 +13506,16 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=2;
+				items=4;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10509.402,15.065172,11857.495};
+						position[]={10509.402,15.065119,11857.495};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						rank="CORPORAL";
@@ -13527,9 +13524,9 @@ class Mission
 						description="Wehrmacht Engineer Team 1 Leader";
 						isPlayable=1;
 					};
-					id=1481;
+					id=1495;
 					type="LIB_GER_sapper_gefr";
-					atlOffset=-0.0039463043;
+					atlOffset=-0.0039997101;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13559,20 +13556,105 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10508.608,15.070913,11856.978};
+						position[]={10508.608,15.071245,11856.978};
 					};
 					side="West";
-					flags=5;
+					flags=4;
 					class Attributes
 					{
 						init="GrpGER_ENG1 = group this; [""eng"",this] call f_fnc_assignGear; ";
-						name="UnitGER_ENG1_E";
+						name="UnitGER_ENG1_A1";
 						description="Wehrmacht Engineer Team 1 Assistant";
 						isPlayable=1;
 					};
-					id=1482;
+					id=1497;
 					type="LIB_GER_sapper";
-					atlOffset=-0.001332283;
+					atlOffset=-0.0010004044;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10507.796,15.072229,11856.494};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="GrpGER_ENG1 = group this; [""engm"",this] call f_fnc_assignGear; ";
+						name="UnitGER_ENG1_A2";
+						description="Wehrmacht Engineer Team 1 Assistant (mines)";
+						isPlayable=1;
+					};
+					id=1499;
+					type="LIB_GER_sapper";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10506.945,15.066054,11855.922};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="GrpGER_ENG1 = group this; [""engm"",this] call f_fnc_assignGear; ";
+						name="UnitGER_ENG1_A3";
+						description="Wehrmacht Engineer Team 1 Assistant (mines)";
+						isPlayable=1;
+					};
+					id=1501;
+					type="LIB_GER_sapper";
+					atlOffset=0.0020008087;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13602,7 +13684,7 @@ class Mission
 			{
 			};
 			id=1480;
-			atlOffset=-0.0039463043;
+			atlOffset=-0.0039997101;
 		};
 		class Item165
 		{
