@@ -448,7 +448,7 @@ switch (_typeofUnit) do
     case "sp":
     {
         _unit addVest _SNriflevest;
-        _unit addMagazines [_rifle, 10];
+        _unit addMagazines [_riflemag, 10];
         _unit addWeapon _rifle;
         _unit addMagazines [_pistolmag, 2];
         _unit addWeapon _pistol;
