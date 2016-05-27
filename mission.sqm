@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1448;
+		nextID=1486;
 	};
 	class Camera
 	{
-		pos[]={10381.779,18.988583,11876.91};
-		dir[]={0.48356381,-0.5549323,-0.67710429};
-		up[]={0.32255438,0.83185035,-0.45165074};
-		aside[]={-0.81384951,-1.0885997e-006,-0.58122629};
+		pos[]={10364.546,16.315025,11927.815};
+		dir[]={-0.1709062,-0.39041078,-0.90477496};
+		up[]={-0.072484098,0.92059451,-0.38373613};
+		aside[]={-0.98270154,-1.8416904e-006,0.18562287};
 	};
 };
 binarizationWanted=0;
@@ -181,7 +181,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=164;
+		items=166;
 		class Item0
 		{
 			dataType="Object";
@@ -9996,606 +9996,6 @@ class Mission
 		class Item138
 		{
 			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={10486.245,14.619022,11891.099};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="GrpGER_MAT1 = group this; [""matag"",this] call f_fnc_assignGear;";
-						name="UnitGER_MAT1_AG";
-						description="Wehrmacht AT Team 1 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1208;
-					type="LIB_GER_AT_grenadier";
-					atlOffset=-0.00066566467;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={10488.222,14.630993,11890.92};
-						angles[]={0.0080009829,0,0.0053265258};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="GrpGER_MAT1 = group this; [""matg"",this] call f_fnc_assignGear;";
-						name="UnitGER_MAT1_G";
-						description="Wehrmacht AT Team 1 Gunner";
-						isPlayable=1;
-					};
-					id=1209;
-					type="LIB_GER_AT_soldier";
-					atlOffset=-0.00066566467;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1207;
-			atlOffset=-0.00066566467;
-		};
-		class Item139
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={10488.124,14.656992,11887.688};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="GrpGER_MAT2 = group this; [""matag"",this] call f_fnc_assignGear;";
-						name="UnitGER_MAT2_AG";
-						description="Wehrmacht AT Team 2 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1211;
-					type="LIB_GER_AT_grenadier";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={10490.1,14.668957,11887.51};
-						angles[]={0.0080009829,0,0.0053265258};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						init="GrpGER_MAT2 = group this; [""matg"",this] call f_fnc_assignGear;";
-						name="UnitGER_MAT2_G";
-						description="Wehrmacht AT Team 2 Gunner";
-						isPlayable=1;
-					};
-					id=1212;
-					type="LIB_GER_AT_soldier";
-					atlOffset=9.5367432e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1210;
-		};
-		class Item140
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={10495.557,14.769491,11878.581};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						init="GrpGER_MTR1 = group this; [""mtrag"",this] call f_fnc_assignGear; ";
-						name="UnitGER_MTR1_AG";
-						description="Wehrmacht Mortar Team 1 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1214;
-					type="LIB_GER_gun_unterofficer";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={10496.464,14.773444,11878.691};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="GrpGER_MTR1 = group this; [""mtrg"",this] call f_fnc_assignGear; ";
-						name="UnitGER_MTR1_G";
-						description="Wehrmacht Mortar Team 1 Gunner";
-						isPlayable=1;
-					};
-					id=1215;
-					type="LIB_GER_gun_crew";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1213;
-		};
-		class Item141
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={10500.294,14.854085,11871.214};
-						angles[]={0.0093200579,0,0.0039968039};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="GrpGER_ST1 = group this; [""sp"",this] call f_fnc_assignGear; ";
-						name="UnitGER_ST1_SP";
-						description="Wehrmacht Sniper Team 1 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1217;
-					type="LIB_GER_scout_ober_rifleman";
-					atlOffset=-0.0010004044;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={10501.158,14.858858,11871.18};
-						angles[]={0.0093200579,0,0.0039968039};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						init="GrpGER_ST1 = group this; [""sn"",this] call f_fnc_assignGear; ";
-						name="UnitGER_ST1_SN";
-						description="Wehrmacht Sniper Team 1 Gunner";
-						isPlayable=1;
-					};
-					id=1218;
-					type="LIB_GER_scout_sniper";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1216;
-		};
-		class Item142
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={10509.624,15.074059,11856.186};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						rank="CORPORAL";
-						init="GrpGER_ENG1 = group this; [""eng"",this] call f_fnc_assignGear; ";
-						name="UnitGER_ENG1_FTL";
-						description="Wehrmacht Engineer Team 1 Leader";
-						isPlayable=1;
-					};
-					id=1220;
-					type="LIB_GER_sapper_gefr";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={10508.83,15.074986,11855.668};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="GrpGER_ENG1 = group this; [""eng"",this] call f_fnc_assignGear; ";
-						name="UnitGER_ENG1_E";
-						description="Wehrmacht Engineer Team 1 Assistant";
-						isPlayable=1;
-					};
-					id=1221;
-					type="LIB_GER_sapper";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1219;
-		};
-		class Item143
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={10516.233,15.084923,11843.928};
-						angles[]={6.2818484,0,0.0013372133};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="GrpGER_SPG1 = group this; [""spgag"",this] call f_fnc_assignGear;";
-						name="UnitGER_SPG1_AG";
-						description="Wehrmacht SPG 1 Spotter (Leader)";
-						isPlayable=1;
-					};
-					id=1223;
-					type="LIB_GER_gun_unterofficer";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={10517.703,15.086667,11843.767};
-						angles[]={6.2818484,0,0.0013372133};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="GrpGER_SPG1 = group this; [""spgg"",this] call f_fnc_assignGear;";
-						name="UnitGER_SPG1_G";
-						description="Wehrmacht SPG 1 Gunner";
-						isPlayable=1;
-					};
-					id=1224;
-					type="LIB_GER_gun_crew";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1222;
-		};
-		class Item144
-		{
-			dataType="Group";
 			side="Independent";
 			class Entities
 			{
@@ -10696,7 +10096,7 @@ class Mission
 			id=1251;
 			atlOffset=1.9073486e-006;
 		};
-		class Item145
+		class Item139
 		{
 			dataType="Group";
 			side="Independent";
@@ -10796,7 +10196,7 @@ class Mission
 			};
 			id=1254;
 		};
-		class Item146
+		class Item140
 		{
 			dataType="Group";
 			side="Independent";
@@ -10897,7 +10297,7 @@ class Mission
 			};
 			id=1257;
 		};
-		class Item147
+		class Item141
 		{
 			dataType="Group";
 			side="Independent";
@@ -10998,7 +10398,7 @@ class Mission
 			};
 			id=1260;
 		};
-		class Item148
+		class Item142
 		{
 			dataType="Group";
 			side="Independent";
@@ -11080,7 +10480,7 @@ class Mission
 			id=1263;
 			atlOffset=-1.9073486e-006;
 		};
-		class Item149
+		class Item143
 		{
 			dataType="Group";
 			side="Independent";
@@ -11135,7 +10535,7 @@ class Mission
 			};
 			id=1266;
 		};
-		class Item150
+		class Item144
 		{
 			dataType="Group";
 			side="Independent";
@@ -11281,7 +10681,7 @@ class Mission
 			};
 			id=1273;
 		};
-		class Item151
+		class Item145
 		{
 			dataType="Group";
 			side="Independent";
@@ -11427,7 +10827,7 @@ class Mission
 			};
 			id=1281;
 		};
-		class Item152
+		class Item146
 		{
 			dataType="Group";
 			side="Independent";
@@ -11665,7 +11065,7 @@ class Mission
 			id=1288;
 			atlOffset=1.9073486e-006;
 		};
-		class Item153
+		class Item147
 		{
 			dataType="Group";
 			side="Independent";
@@ -11904,7 +11304,7 @@ class Mission
 			id=1308;
 			atlOffset=1.9073486e-006;
 		};
-		class Item154
+		class Item148
 		{
 			dataType="Group";
 			side="Independent";
@@ -12050,7 +11450,7 @@ class Mission
 			};
 			id=1314;
 		};
-		class Item155
+		class Item149
 		{
 			dataType="Group";
 			side="Independent";
@@ -12290,7 +11690,7 @@ class Mission
 			id=1318;
 			atlOffset=0.0060024261;
 		};
-		class Item156
+		class Item150
 		{
 			dataType="Group";
 			side="Independent";
@@ -12530,7 +11930,7 @@ class Mission
 			id=1324;
 			atlOffset=-1.9073486e-006;
 		};
-		class Item157
+		class Item151
 		{
 			dataType="Group";
 			side="Independent";
@@ -12677,7 +12077,7 @@ class Mission
 			};
 			id=1346;
 		};
-		class Item158
+		class Item152
 		{
 			dataType="Group";
 			side="Independent";
@@ -12916,7 +12316,7 @@ class Mission
 			id=1350;
 			atlOffset=0.034000397;
 		};
-		class Item159
+		class Item153
 		{
 			dataType="Group";
 			side="Independent";
@@ -13156,7 +12556,7 @@ class Mission
 			id=1356;
 			atlOffset=0.021999359;
 		};
-		class Item160
+		class Item154
 		{
 			dataType="Group";
 			side="Independent";
@@ -13256,7 +12656,7 @@ class Mission
 			};
 			id=1367;
 		};
-		class Item161
+		class Item155
 		{
 			dataType="Group";
 			side="Independent";
@@ -13358,7 +12758,7 @@ class Mission
 			id=1370;
 			atlOffset=1.9073486e-006;
 		};
-		class Item162
+		class Item156
 		{
 			dataType="Group";
 			side="Independent";
@@ -13440,7 +12840,7 @@ class Mission
 			id=1379;
 			atlOffset=0.01499176;
 		};
-		class Item163
+		class Item157
 		{
 			dataType="Group";
 			side="Independent";
@@ -13496,6 +12896,818 @@ class Mission
 			};
 			id=1382;
 			atlOffset=5.3405762e-005;
+		};
+		class Item158
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10480.461,14.503301,11900.993};
+						angles[]={0.0080009829,5.9327579,0.0066682254};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="GrpGER_MMG1 = group this; [""mmgag"",this] call f_fnc_assignGear;";
+						name="UnitGER_MMG1_AG";
+						description="Wehrmacht Medium MG Team 1 Spotter (Leader)";
+						isPlayable=1;
+					};
+					id=1463;
+					type="LIB_GER_smgunner";
+					atlOffset=-0.00033473969;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10482.379,14.512001,11901.504};
+						angles[]={0.0080009829,5.9327579,0.0066682254};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="GrpGER_MMG1 = group this; [""mmgg"",this] call f_fnc_assignGear;";
+						name="UnitGER_MMG1_G";
+						description="Wehrmacht Medium MG Team 1 Gunner";
+						isPlayable=1;
+					};
+					id=1464;
+					type="LIB_GER_mgunner";
+					atlOffset=-0.00033378601;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1462;
+			atlOffset=-0.00033473969;
+		};
+		class Item159
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10481.009,14.519882,11899.418};
+						angles[]={0.0080009829,5.9327579,0.0066682254};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="GrpGER_MMG2 = group this; [""mmgag"",this] call f_fnc_assignGear;";
+						name="UnitGER_MMG2_AG";
+						description="Wehrmacht Medium MG Team 2 Spotter (Leader)";
+						isPlayable=1;
+					};
+					id=1466;
+					type="LIB_GER_smgunner";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10482.927,14.528584,11899.929};
+						angles[]={0.0080009829,5.9327579,0.0066682254};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="GrpGER_MMG2 = group this; [""mmgg"",this] call f_fnc_assignGear;";
+						name="UnitGER_MMG2_G";
+						description="Wehrmacht Medium MG Team 2 Gunner";
+						isPlayable=1;
+					};
+					id=1467;
+					type="LIB_GER_mgunner";
+					atlOffset=9.5367432e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1465;
+		};
+		class Item160
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10484.724,14.59231,11893.461};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="GrpGER_MAT1 = group this; [""matag"",this] call f_fnc_assignGear;";
+						name="UnitGER_MAT1_AG";
+						description="Wehrmacht AT Team 1 Spotter (Leader)";
+						isPlayable=1;
+					};
+					id=1469;
+					type="LIB_GER_AT_grenadier";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10486.284,14.592971,11894.298};
+						angles[]={0.0080009829,0,0.0053265258};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="GrpGER_MAT1 = group this; [""matg"",this] call f_fnc_assignGear;";
+						name="UnitGER_MAT1_G";
+						description="Wehrmacht AT Team 1 Gunner";
+						isPlayable=1;
+					};
+					id=1470;
+					type="LIB_GER_AT_soldier";
+					atlOffset=-0.0013313293;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1468;
+		};
+		class Item161
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10485.442,14.608038,11892.02};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="GrpGER_MAT2 = group this; [""matag"",this] call f_fnc_assignGear;";
+						name="UnitGER_MAT2_AG";
+						description="Wehrmacht AT Team 2 Spotter (Leader)";
+						isPlayable=1;
+					};
+					id=1472;
+					type="LIB_GER_AT_grenadier";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10487.189,14.610207,11892.913};
+						angles[]={0.0080009829,0,0.0053265258};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="GrpGER_MAT2 = group this; [""matg"",this] call f_fnc_assignGear;";
+						name="UnitGER_MAT2_G";
+						description="Wehrmacht AT Team 2 Gunner";
+						isPlayable=1;
+					};
+					id=1473;
+					type="LIB_GER_AT_soldier";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1471;
+		};
+		class Item162
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10493.938,14.742076,11880.846};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="GrpGER_MTR1 = group this; [""mtrag"",this] call f_fnc_assignGear; ";
+						name="UnitGER_MTR1_AG";
+						description="Wehrmacht Mortar Team 1 Spotter (Leader)";
+						isPlayable=1;
+					};
+					id=1475;
+					type="LIB_GER_gun_unterofficer";
+					atlOffset=-0.00066661835;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10494.846,14.746029,11880.956};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="GrpGER_MTR1 = group this; [""mtrg"",this] call f_fnc_assignGear; ";
+						name="UnitGER_MTR1_G";
+						description="Wehrmacht Mortar Team 1 Gunner";
+						isPlayable=1;
+					};
+					id=1476;
+					type="LIB_GER_gun_crew";
+					atlOffset=-0.00066661835;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1474;
+			atlOffset=-0.00066661835;
+		};
+		class Item163
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10499.55,14.829626,11873.518};
+						angles[]={0.0080009829,0,0.0053265258};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="GrpGER_ST1 = group this; [""sp"",this] call f_fnc_assignGear; ";
+						name="UnitGER_ST1_SP";
+						description="Wehrmacht Sniper Team 1 Spotter (Leader)";
+						isPlayable=1;
+					};
+					id=1478;
+					type="LIB_GER_scout_ober_rifleman";
+					atlOffset=-0.0016670227;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10500.414,14.835514,11873.483};
+						angles[]={0.0080009829,0,0.0053265258};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						init="GrpGER_ST1 = group this; [""sn"",this] call f_fnc_assignGear; ";
+						name="UnitGER_ST1_SN";
+						description="Wehrmacht Sniper Team 1 Gunner";
+						isPlayable=1;
+					};
+					id=1479;
+					type="LIB_GER_scout_sniper";
+					atlOffset=-0.00066566467;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1477;
+			atlOffset=-0.00066566467;
+		};
+		class Item164
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10509.402,15.065172,11857.495};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="CORPORAL";
+						init="GrpGER_ENG1 = group this; [""eng"",this] call f_fnc_assignGear; ";
+						name="UnitGER_ENG1_FTL";
+						description="Wehrmacht Engineer Team 1 Leader";
+						isPlayable=1;
+					};
+					id=1481;
+					type="LIB_GER_sapper_gefr";
+					atlOffset=-0.0039463043;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10508.608,15.070913,11856.978};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="GrpGER_ENG1 = group this; [""eng"",this] call f_fnc_assignGear; ";
+						name="UnitGER_ENG1_E";
+						description="Wehrmacht Engineer Team 1 Assistant";
+						isPlayable=1;
+					};
+					id=1482;
+					type="LIB_GER_sapper";
+					atlOffset=-0.001332283;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1480;
+			atlOffset=-0.0039463043;
+		};
+		class Item165
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10515.854,15.086848,11845.252};
+						angles[]={6.2818484,0,0.0013372133};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CORPORAL";
+						init="GrpGER_SPG1 = group this; [""spgag"",this] call f_fnc_assignGear;";
+						name="UnitGER_SPG1_AG";
+						description="Wehrmacht SPG 1 Spotter (Leader)";
+						isPlayable=1;
+					};
+					id=1484;
+					type="LIB_GER_gun_unterofficer";
+					atlOffset=0.00066661835;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10517.323,15.088593,11845.091};
+						angles[]={6.2818484,0,0.0013372133};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="GrpGER_SPG1 = group this; [""spgg"",this] call f_fnc_assignGear;";
+						name="UnitGER_SPG1_G";
+						description="Wehrmacht SPG 1 Gunner";
+						isPlayable=1;
+					};
+					id=1485;
+					type="LIB_GER_gun_crew";
+					atlOffset=0.00066661835;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1483;
+			atlOffset=0.00066661835;
 		};
 	};
 	class Connections
