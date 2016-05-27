@@ -161,8 +161,21 @@ class Params
             title = "Radio System";
             values[] = {0,1,2,3};
             texts[] = {"Off","ACRE","TFR","ACRE2"};
-            default = 0;
+            default = 2;
             code = "f_var_radios = %1";
+    };
+
+// ============================================================================================
+
+// Give radios to CO DC SL's
+
+    class f_param_give_radios
+    {
+            title = "Equip command with radios";
+            values[] = {0, 1};
+            texts[] = {"No", "Yes"};
+            default = 0;
+            code = "f_param_give_radios = %1";
     };
 
 // ============================================================================================
